@@ -262,6 +262,16 @@
                 }
             }
             &__middle{
+                display: flex;
+                flex-flow: row;
+                justify-content: center;
+                &__title{
+                    text-align: left;
+                    margin-right: 44px;
+                    p{
+                        text-align: left;
+                    }
+                }
                 &__select{
                     display: flex;
                     flex-flow: row;
