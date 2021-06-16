@@ -1,0 +1,7 @@
+.body{
+    margin: 0;
+}
+@import "./base/grid";
+@import "./base/mixins/breakpoints";
+@import "./base/variables";
+@import "./components/home";
